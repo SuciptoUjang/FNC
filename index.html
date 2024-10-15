@@ -1,163 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fnatic Valorant Merchandise</title>
-    <style>
-        /* Apply background image to the body */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #141414;
-            color: #ffffff;
-            margin: 0;
-            padding: 0;
-            background-image: url('https://cdn.sanity.io/images/5gii1snx/production/abc76ad853730deb948f1a64bb0efbb67e9b0b11-1920x1008.png');
-            background-size: cover;
-            background-position: center center;
-            background-attachment: fixed;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fnatic Valorant Merchandise</title>
+<style>
+/* Apply background image to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #141414; /* Fallback color */
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://cdn.sanity.io/images/5gii1snx/production/abc76ad853730deb948f1a64bb0efbb67e9b0b11-1920x1008.png'); /* Replace with your image URL */
+    background-size: cover; /* Ensure the background image covers the entire viewport */
+    background-position: center center; /* Center the background image */
+    background-attachment: fixed; /* Optional: keeps background fixed on scroll */
+}
 
-        header {
-            text-align: center;
-            padding: 20px;
-        }
+/* Header styling */
+header {
+    text-align: center;
+    padding: 20px;
+}
 
-        .slider {
-            position: relative;
-            max-width: 80%;
-            margin: 20px auto;
-            overflow: hidden;
-        }
+/* Merchandise section styling */
+.merch {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
 
-        .slides {
-            display: flex;
-            flex-wrap: nowrap;
-            transition: transform 0.5s ease-in-out;
-        }
+/* Styling for each item in the merchandise */
+.item {
+    background-color: #1a1a1a;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+    width: 220px;
+    text-align: center;
+}
 
-        .slides div {
-            min-width: 100%;
-            box-sizing: border-box;
-        }
+/* Image styling */
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
 
-        .slides img {
-            width: 100%;
-            border-radius: 10px;
-        }
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+}
 
-        .nav {
-            position: absolute;
-            top: 50%;
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-            transform: translateY(-50%);
-        }
+/* General header for each section */
+h1, h2 {
+    text-align: center;
+}
 
-        .nav button {
-            background-color: rgba(255, 255, 255, 0.7);
-            border: none;
-            padding: 10px;
-            cursor: pointer;
-        }
+/* Specific styling for the introductory message */
+h1.intro {
+    color: white;
+    text-align: center;
+    padding-top: 20%;
+}
 
-        footer {
-            text-align: center;
-            margin-top: 40px;
-            font-size: 0.9em;
-        }
-
-        h1, h2 {
-            text-align: center;
-        }
-
-        h1.intro {
-            color: white;
-            text-align: center;
-            padding-top: 20%;
-        }
-
-        section {
-            padding: 20px;
-            background-color: rgba(0, 0, 0, 0.7);
-            margin: 20px 0;
-            border-radius: 10px;
-        }
-    </style>
+/* Additional section styling */
+section {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for readability */
+    margin: 20px 0;
+    border-radius: 10px;
+}
+</style>
 </head>
-
 <body>
 
-    <h1 class="intro">Because you clicked this website, you must buy the merch!</h1>
+<h1 class="intro">Because you clicked this website, you must buy the merch!</h1>
 
-    <header>
-        <h1>Fnatic Valorant Merchandise</h1>
-        <p>Your one-stop shop for Fnatic Valorant gear!</p>
-    </header>
+<header>
+    <h1>Fnatic Valorant Merchandise</h1>
+    <p>Your one-stop shop for Fnatic Valorant gear!</p>
+</header>
 
-    <section>
-      <center>
-        <h2>Merchandise Slider</h2>
-        <div class="slider">
-            <div class="slides">
-                <div>
-                    <a href="https://fnatic.com/shop" target="_blank">
-                        <img src="https://cdn.sanity.io/images/5gii1snx/production/561c8b00573137f89d12a92c0beab3c49b7b2aae-2400x1800.jpg" alt="Fnatic Valorant T-Shirt">
-                        <h3>Fnatic Valorant T-Shirt</h3>
-                    </a>
-                </div>
-                <div>
-                    <a href="https://fnatic.com/shop" target="_blank">
-                        <img src="https://cdn.sanity.io/images/5gii1snx/production/66928a701d7ef48cef7a79525356ec16a51f9099-7328x4888.jpg" alt="Fnatic Valorant Hoodie">
-                        <h3>Fnatic Valorant Hoodie</h3>
-                    </a>
-                </div>
-                <div>
-                    <a href="https://fnatic.com/shop" target="_blank">
-                        <img src="https://ih1.redbubble.net/image.3718114120.2353/ssrco,baseball_cap,product,000000:44f0b734a5,front,square,600x600-bg,f8f8f8.u1.jpg" alt="Fnatic Valorant Cap">
-                        <h3>Fnatic Valorant Cap</h3>
-                    </a>
-                </div>
-                <div>
-                    <a href="https://fnatic.com/shop" target="_blank">
-                        <img src="https://cf-img.fnatic.com/cdn-cgi/image/dpr=1,fit=contain,format=auto,height=1998,width=1536,trim=0;70;0;70/https://cdn.sanity.io/images/5gii1snx/production/14509be03b37fec4d6942bc1e868cdcaa2b064df-704x704.png" alt="Fnatic Valorant Mouse">
-                        <h3>Fnatic Valorant Mouse</h3>
-                    </a>
-                </div>
-            </div>
-            <div class="nav">
-                <button id="prev">&#10094;</button>
-                <button id="next">&#10095;</button>
-            </div>
+<section>
+    <h2>Merchandise</h2>
+    <div class="merch">
+        <div class="item">
+            <a href="https://fnatic.com/shop" target="_blank">
+                <img src="https://cdn.sanity.io/images/5gii1snx/production/561c8b00573137f89d12a92c0beab3c49b7b2aae-2400x1800.jpg" alt="Fnatic Valorant T-Shirt">
+                <h3>Fnatic Valorant T-Shirt</h3>
+            </a>
         </div>
-      </center>
-    </section>
-
-    <footer>
-        <p>Visit Official Website To Buy The Merch.</p>
-        <p>© 2024 Fnatic Valorant Merch. All rights reserved.</p>
-        <p><a href="https://fnatic.com/shop" target="_blank" style="color: #ffffff;">Visit the Official Fnatic Website</a></p>
-    </footer>
-
-    <script>
-        const slides = document.querySelector('.slides');
-        const prevBtn = document.getElementById('prev');
-        const nextBtn = document.getElementById('next');
-        let index = 0;
-
-        prevBtn.addEventListener('click', () => {
-            index = (index > 0) ? index - 1 : slides.children.length - 1;
-            slides.style.transform = `translateX(-${index * 100}%)`;
-        });
-
-        nextBtn.addEventListener('click', () => {
-            index = (index < slides.children.length - 1) ? index + 1 : 0;
-            slides.style.transform = `translateX(-${index * 100}%)`;
-        });
-    </script>
-</body>
-
+        <div class="item">
+            <a href="https://fnatic.com/shop" target="_blank">
+                <img src="https://cdn.sanity.io/images/5gii1snx/production/66928a701d7ef48cef7a79525356ec16a51f9099-7328x4888.jpg" alt="Fnatic Valorant Hoodie">
+                <h3>Fnatic Valorant Hoodie</h3>
+            </a>
+        </div>
+        <div class="item">
+            <a href="https://fnatic.com/shop" target="_blank">
+                <img src="https://ih1.redbubble.net/image.3718114120.2353/ssrco,baseball_cap,product,000000:44f0b734a5,front,square,600x600-bg,f8f8f8.u1.jpg" alt="Fnatic Valorant Cap">
+                <h3>Fnatic Valorant Cap</h3>
+            </a>
+        </div>
+        <div class="item">
+            <a href="https://fnatic.com/shop" target="_blank">
+                <img src="https://cf-img.fnatic.com/cdn-cgi/image/dpr=1,fit=contain,format=auto,height=1998,width=1536,trim=0;70;0;70/https://cdn.sanity.io/images/5gii1snx/production/14509be03b37fec4d6942bc1e868cdcaa2b064df-704x704.png" alt="Fnatic Valorant Gear">
+                <h3>Fnatic Valorant Mouse</h3>
+            </a>
+        </div>
+    </div>
+</section>
+    
 <footer>
     <p>Visit Official Website To Buy The Merch.</p>
     <p>© 2024 Fnatic Valorant Merch. All rights reserved.</p>
